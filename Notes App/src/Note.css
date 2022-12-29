@@ -1,0 +1,89 @@
+#card-body {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+#textAndTitleBody {
+    width: 100%;
+    text-align: right !;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#noteCardfooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#addButton {
+    color: #fcd23a;
+    border-radius: 10px;
+}
+
+#addButton:hover {
+    background-color: #fcd23a;
+    color: #ffffff;
+}
+
+#addButton:active {
+    background-color: #be9e2c;
+}
+
+
+#titleInput {
+    border: none;
+    box-shadow: none;
+    font-weight: 800;
+    font-size: larger;
+}
+
+#textarea {
+    overflow-y: auto;
+    height: fit-content;
+    max-height: 250px;
+    resize: none;
+    height: auto;
+    outline-width: 1px;
+}
+
+#textarea:focus {
+    box-shadow: none;
+}
+
+
+
+#noInput {
+    color: #ff7878fc;
+    margin-top: 5px;
+    left: 1px;
+    text-align: start;
+    padding-left: 5px;
+    font-size: 11px;
+    min-height: 16.5px;
+}
+
+#divider {
+    width: 344px;
+}
+
+@media screen and (max-width:900px) {
+    #card-body {
+        width: 335px;
+    }
+
+    .chakra-modal__close-btn {
+        right: 28px !important;
+    }
+}

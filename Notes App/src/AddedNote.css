@@ -1,0 +1,123 @@
+#saved-note {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgb(179 165 115 / 67%);
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+#saved-note:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#saved-note h2 {
+    text-align: left;
+}
+
+#createdDate {
+    color: #00000069;
+    padding-top: 0px;
+    padding-bottom: 4px;
+}
+
+#note-content {
+    text-align: left;
+}
+#addedNoteHeading{
+    padding-bottom: 5px !important;
+}
+
+#cardBody {
+    padding-top: 0px;
+}
+
+#cardfooter {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 19px;
+    align-items: end;
+    padding-bottom: 15px;
+}
+
+#iconButton {
+    background: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: #00000050;
+}
+
+#iconButton:hover{
+    background-color:#fcd23a;
+    color: white;
+}
+
+#iconButton:active {
+    background-color:#b6982a;
+}
+
+.chakra-modal__content {
+    border-radius: 20px !important;
+    min-height: 300px !important;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#modalFooter {
+    gap: 7px;
+}
+
+#closeButton {
+    background-color: #fcd23a !important;
+    color: #ffffff !important;
+    border-radius: 10px !important;
+}
+
+#closeButton:hover {
+    background-color: #d7b334 !important;
+}
+
+#closeButton:active {
+    background-color: #b6982a !important;
+    color: #ffffff !important;
+}
+
+#editButton {
+    color: #00000050;
+}
+
+#editButton:hover {
+    color: #fcd23a;
+    background-color: white;
+}
+
+#editButton:active {
+    color: #b6982a;
+}
+
+.css-g33wz1 {
+    background-color: rgba(248, 244, 228, 0.156);
+}
+
+.chakra-modal__content {
+    background-color: transparent !important;
+    box-shadow: none !important;
+
+    right: 4px;
+    bottom: 7px;
+}
+
+.chakra-modal__close-btn {
+    z-index: 2;
+    top: 20px !important;
+    right: 40px !important;
+}
+
+#dates {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#dates p {
+    font-size: 12px;
+}

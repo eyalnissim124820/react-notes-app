@@ -1,0 +1,69 @@
+body {
+  height: 100vh;
+  background-color: #f0e1ac59 !important;
+}
+
+
+#root {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 15px;
+  padding-left: 18px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #000000b8;
+}
+
+#clearAll {
+  position: absolute;
+  right: 10px;
+  margin-top: 7px;
+  background-color: white;
+  color: #fcd23a;
+  align-items: center;
+}
+#clearAll:hover{
+  background-color:#fcd23a;
+  color: white;
+}
+#clearAll:active {
+  background-color:#b6982a;
+}
+
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.noteslist {
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  flex-wrap: wrap;
+}
